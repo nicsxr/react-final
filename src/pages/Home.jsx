@@ -7,7 +7,7 @@ export default function Home() {
 
       <div className="flex gap-6">
         <a
-          href="https://github.com/yourusername/your-project" 
+          href="https://github.com/nicsxr/react-final" 
           target="_blank" rel="noopener noreferrer"
           className="text-blue-600 hover:underline"
         >
