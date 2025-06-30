@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import People from "./pages/People";
 import SavedPeople from "./pages/SavedPeople";
@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <div className={`min-h-screen ${isDark ? "dark bg-gray-900 text-white" : "bg-gray-100 text-black"}`}>
-      <BrowserRouter>
+      <HashRouter>
         <div className="p-4">
           <div className="flex justify-between items-center mb-4">
             <Navbar />
@@ -29,7 +29,7 @@ export default function App() {
             <Route path="/saved" element={<SavedPeople />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
