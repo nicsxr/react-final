@@ -3,7 +3,7 @@
 Simple random people fetcher with the ability to save built using React
 
 
-Live Demo: https://nicsxr.github.io/react-final/
+Live Demo: https://nicsxr.github.io/react-final/#/
 
 
 Project uses https://randomuser.me/ API
